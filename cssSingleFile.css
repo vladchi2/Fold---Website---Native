@@ -1,0 +1,379 @@
+
+/*Common part!!!*/
+
+body {
+    font-family: arial;
+    background-image: url("Images/ba.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.flexBody{
+    display:flex;
+    flex:1;
+    border:solid;
+    border-color:rgb(127, 219, 255);
+    border-width:10px 10px 10px 0px;
+    padding:20px;
+    flex-direction:column;    
+    margin-left:14vw;
+    margin-right:14vw; 
+    background-color: rgb(0, 31, 63);
+}
+
+.mainNavigation .topLogos input {
+    width:565px;
+    height:200px;
+}   
+
+.mainNavigation .topLogos img {
+    width:200px;
+    height:200px;    
+}
+
+.mainNavigation .topNavigation {
+    overflow: hidden;
+    background-color: #e9e9e9;    
+    margin-right:-20px;
+    border-bottom:10px solid rgb(127, 219, 255);
+           
+  }
+  
+.mainNavigation .topNavigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.mainNavigation .topNavigation a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.mainNavigation .topNavigation a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+.mainNavigation .topNavigation .search-container {
+    float: right;
+  }
+  
+.mainNavigation .topNavigation input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+.mainNavigation .topNavigation .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .requirements {
+    display: flex;
+    flex-direction: column;
+    width:85vw;
+    height:50vw;
+  }
+
+  .topLogos img {
+    float: right;
+  }
+
+  .pageTitle {
+    color: rgb(127, 219, 255);
+  }
+
+  /*Games page part*/
+
+  .gamesBlock{
+    display: solid;
+    display: flex; 
+    width: auto;
+    height: auto;
+    background-image: url("Images/CaptureGames.png");
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    border: 13px #2196F3 double;
+    
+    
+    }
+    .gamesBlock .apexGame figure .apexImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .roeGame figure .roeImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .fortniteGame figure .fortniteImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .pubgGame figure .pubgImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .destiny2Game figure .destiny2Image{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .forzaGame figure .forzaImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .theDivisionGame figure .theDivisionImage{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .fifa19Game figure .fifa19Image{
+        display: flex;
+        flex: auto;
+    }
+    .gamesBlock .ASOGame figure .ASOImage{
+        display: flex;
+        flex: auto;
+    }
+  
+ /* .gamesBlock input{
+    display: flex;
+    width: 130%;
+    
+  }*/
+  .gamesBlock figure {
+    font-size: 100%;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+
+
+
+
+  /*SysReqPage part*/
+
+.sysReqBlock{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+.sysReqBlock .apexSysReqBlock{
+    display:solid;
+    display: flex;
+    background-image: url("Images/Capture.png");
+    background-color:rgb(0, 31, 63);
+    flex-direction: row;
+    width:calc(76vw-30px);
+    height:50vw;
+    flex:1; 
+    font-size: 72;
+  }
+
+  .sysReqBlock .apexSysReqBlock img {
+    width: 100vw;
+    height: 50vw;
+  }
+
+  .sysReqBlock .apexSysReqBlock .requirements .minimumRequirements fieldset { 
+    width: 35vw;
+    height: 20vw;
+    font-size: 25px;
+    border:solid;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(137, 43, 226, 0);
+  }
+
+  .sysReqBlock .apexSysReqBlock .requirements .recomandedRequirements fieldset {
+    width: 35vw;
+    height: 27.5vw;
+    font-size: 25px;
+    border:solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(137, 43, 226, 0);
+  }  
+
+
+
+
+
+  .sysReqBlock .fortniteSysReqBlock{
+    display:solid;
+    display: flex;
+    background-image: url("Images/Capture.png");
+    background-color:rgb(0, 31, 63);
+    flex-direction: row;
+    width:calc(76vw-30px);
+    height:50vw;
+    flex:1; 
+    font-size: 72;
+  }
+
+  .sysReqBlock .fortniteSysReqBlock img {
+    width: 100vw;
+    height: 50vw;
+  }
+
+  .sysReqBlock .fortniteSysReqBlock .requirements .minimumRequirements fieldset { 
+    width: 35vw;
+    height: 20vw;
+    font-size: 25px;
+    border:solid;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(137, 43, 226, 0);
+  }
+
+  .sysReqBlock .fortniteSysReqBlock .requirements .recomandedRequirements fieldset {
+    width: 35vw;
+    height: 27.5vw;
+    font-size: 25px;
+    border:solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(137, 43, 226, 0);
+  }  
+
+
+
+
+  .sysReqBlock .pubgSysReqBlock{
+    display:solid;
+    display: flex;
+    background-image: url("Images/Capture.png");
+    background-color:rgb(0, 31, 63);
+    flex-direction: row;
+    width:calc(76vw-30px);
+    height:50vw;
+    flex:1; 
+    font-size: 72;
+  }
+
+  .sysReqBlock .pubgSysReqBlock img {
+    display: flex;
+    flex:auto;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /*height: 50vw;*/
+  }
+
+  .sysReqBlock .pubgSysReqBlock .requirements .minimumRequirements fieldset { 
+    width: 35vw;
+    height: 20vw;
+    font-size: 25px;
+    border:solid;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgba(137, 43, 226, 0);
+  }
+
+  .sysReqBlock .pubgSysReqBlock .requirements .recomandedRequirements fieldset {
+    width: 35vw;
+    height: 27.5vw;
+    font-size: 25px;
+    border:solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(137, 43, 226, 0);
+  }  
+
+  /*VideosPage part*/
+
+  .videosPageBody{
+    width: calc(76vw-30px);
+    height:100vw;
+    background-color:rgb(127, 219, 255);
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    
+  }
+  
+  .videosPageBody .iframeV2{
+    width:calc(76vw-30px);
+    height:33vw;
+    justify-content: stretch;
+    border-bottom:10px solid rgb(127, 219, 255);
+  }
+
+  /*LoginPage part*/
+
+  .loginBlock1{
+    display: solid;
+    display: flex;
+    width: auto;
+    height: auto;
+
+    background-image: url("Images/panoPhoto.jpg");
+    
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    border: 13px black double;
+    
+  }
+  .loginBlock1 input{
+    display: flex;
+    width: 130%;
+  }
+  .loginBlock1 figure {
+    font-size: 150%;
+    text-align: center;
+    
+  }
+  
+  .topLogos img {
+    float: right;
+  }
+  .loginBlock1 .loginBlock2 {
+    display: solid;
+    display: flex;
+    width: 25vw;
+    height: 15vw;
+    background-color: rgba(65, 105, 225, 0.445);
+    border:13px white double;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .loginBlock1 .loginBlock2 form {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    
+  }
+  .loginBlock1 .loginBlock2 form fieldset {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+    color: aliceblue;
+    border-style: double;
+    border-color: rgb(127, 219, 255);
+    
+  }
+  .loginBlock1 .loginBlock2 form fieldset input {
+    flex-grow: 1;
+    width: auto;
+    height: auto;
+  }
+
+  /* NICE END :) */ 
